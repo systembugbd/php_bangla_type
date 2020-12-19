@@ -1,0 +1,69 @@
+﻿table.inlinekbtable{
+	border-collapse:collapse;
+	border:1px solid #80b562;
+}
+table.inlinekbtable tbody tr{
+	border: 1px solid #cfcfcf;
+}
+table.inlinekbtable tbody td{	
+	border: 1px solid #80b562;
+	background:#E9ECD3;			
+	color: #000000;		 
+	font-family: SolaimanLipi,AponaLohit,Bangla,"Siyam Rupali",Likhan,Vrinda,Verdana, Helvetica, Arial, Sans-serif;
+	font-weight:normal;
+	font-size:1.4em;
+	cursor: pointer;	
+	text-align: center;
+	/*padding:.1em .2em .1em .2em;	*/
+}
+table.inlinekbtable tbody td:hover{
+	background-color: #E8EBE1;
+	color: #000000;
+}
+#ekhanelikhun:hover{
+	border:1px solid #0033FF;	
+}
+#zoomit{
+	/*border: 1px solid #CCCCFF;*/
+	background:#E9ECD3;			
+	color: #000000;		 
+	font-family: SolaimanLipi,AponaLohit,Bangla,"Siyam Rupali",Likhan,Vrinda,Verdana, Helvetica, Arial, Sans-serif;
+	font-weight:normal;
+	font-size:3em;
+	cursor: pointer;	
+	text-align: center;
+	margin:3px;
+	padding:2px;
+	height:50px;
+	width:80px;
+	text-align:center;
+	vertical-align:top;
+}
+
+
+/*CSS For Table*/
+
+/* CSS file for table dialog in the table plugin */
+/*
+.panel_wrapper div.current {
+	height: 480px;
+}*/
+#banglavkbtab2_panel,#banglavkbtab1_panel{
+	height:340px;
+} 
+.advfield {
+	width: 200px;
+}
+
+#class {
+	width: 150px;
+}
+.developernote{
+	clear:both;
+	left;padding-top:10px; 
+	padding-bottom:2px;
+/*	text-align:center;*/
+}
+.developernotespan,.cancelmclick{
+	text-align:center;
+}
